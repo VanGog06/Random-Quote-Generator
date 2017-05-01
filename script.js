@@ -6,7 +6,7 @@ $(() => {
 	});
 
     function getRandomQuote() {
-        let quoteURL = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
+        let quoteURL = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
         let quoteRequest = {
             url: quoteURL,
 			cache: false
