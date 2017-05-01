@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body {
+	font-size: 16px;
+	font-family: Righteous, sans-serif;
+	color: #fff;
+}
+
+main {
+	background: #247291;
+	text-align: center;
+	margin-top: 70px;
+	border-radius: 20px;
+}
+
+.machine-title {
+	text-transform: capitalize;
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-size: 3em;
+	margin-top: 30px;
+	text-shadow: 2px 2px #000;
+}
+
+.quote-box {
+	background: #1B566D;
+	border-radius: 20px;
+	width: 60%;
+	margin: 50px auto 40px auto;
+	padding: 40px 0;
+	box-shadow: 4px 4px 10px #333;
+	position: relative;
+	text-align: right;
+}
+
+.quote-box p:not(.quote) {
+	padding: 0 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.cite {
+	padding: 30px 40px 0 0;
+	font-size: 1.1em;
+}
+
+.quote-box::before {
+	font-family: FontAwesome;
+	content: "\f10d";
+	color: #F8DA5B;
+	font-size: 3.5em;
+	position: absolute;
+	top: -35px;
+	left: -25px;
+}
+
+.quote-box::after {
+	font-family: FontAwesome;
+	content: "\f10e";
+	color: #F8DA5B;
+	font-size: 3.5em;
+	position: absolute;
+	bottom: -35px;
+	right: -25px;
+}
+
+.quote {
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 2px 2px #000;
+}
+
+.random-quote,
+.twitter-post {
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+	padding: 10px 15px;
+	font-size: 1.2em;
+	border-radius: 20px;
+	color: #fff;
+}
+
+.random-quote {
+	margin-right: 10px;
+	background: #5CB85C;
+}
+
+.random-quote::before {
+	font-family: FontAwesome;
+	content: "\f074";
+	padding-right: 5px;
+}
+
+.twitter-post {
+	background: #5BC0DE;
+}
+
+.twitter-post::before {
+	font-family: FontAwesome;
+	content: "\f099";
+	padding-right: 5px;
+}
+
+.random-quote:link,
+.twitter-post:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.random-quote:visited,
+.twitter-post:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.random-quote:hover,
+.twitter-post:hover {
+	text-shadow: 2px 2px #333;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+
+.random-quote:active,
+.twitter-post:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer {
+	margin: 30px 0;
+}
+
+footer p {
+	color: #303434;
+}
+
+footer span, 
+footer i,
+footer a,
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+	color: #fff;
+}
