@@ -137,6 +137,14 @@ main {
 	color: #fff;
 }
 
+.facebook-share:hover {
+	text-shadow: 2px 2px #000;
+}
+
+.facebook-share:hover {
+	text-shadow: 2px 2px #000;
+}
+
 .random-quote:active,
 .twitter-post:active,
 .facebook-share:active{
