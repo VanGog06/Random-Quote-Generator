@@ -71,7 +71,8 @@ main {
 }
 
 .random-quote,
-.twitter-post {
+.twitter-post,
+.facebook-share {
 	outline: none;
 	border: none;
 	text-transform: capitalize;
@@ -102,20 +103,34 @@ main {
 	padding-right: 5px;
 }
 
+.facebook-share {
+    background: #3b5998;
+    margin-left: 10px;
+}
+
+.facebook-share::before {
+    font-family: FontAwesome;
+    padding-right: 5px;
+    content: "\f09a";
+}
+
 .random-quote:link,
-.twitter-post:link {
+.twitter-post:link,
+.facebook-share:link {
 	color: #fff;
 	text-decoration: none;
 }
 
 .random-quote:visited,
-.twitter-post:visited {
+.twitter-post:visited,
+.facebook-share:visited {
 	color: #fff;
 	text-decoration: none;
 }
 
 .random-quote:hover,
-.twitter-post:hover {
+.twitter-post:hover,
+.facebook-share:hover {
 	text-shadow: 2px 2px #333;
 	cursor: pointer;
 	text-decoration: none;
@@ -123,7 +138,8 @@ main {
 }
 
 .random-quote:active,
-.twitter-post:active {
+.twitter-post:active,
+.facebook-share:active{
 	color: #fff;
 	text-decoration: none;
 }

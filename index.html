@@ -4,9 +4,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Random Quote Machine</title>
+	<meta property="og:url"           content="https://vangog06.github.io/Random-Quote-Generator/" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Random Quote Generator" />
+	<meta property="og:description"   content="Generate your random quote today" />
+	<meta property="og:image" 		  content="https://cdn.pixabay.com/photo/2016/05/18/20/44/squirrel-1401509_960_720.jpg" />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./style.css">
+
+	<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.9";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+	</script>
 </head>
 
 <body>
@@ -19,7 +34,9 @@
 		
 		<a class="random-quote">random quote</a>
 		<a class="twitter-post" href="https://twitter.com/share?hashtags=quoteoftheday&url=google.com&text=" target="_blank">post to twitter</a>
-		
+		<a class="facebook-share" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvangog06.github.io%2FRandom-Quote-Generator%2F">share on facebook</a>
+
+
 		<footer class="container">
 			<p>
 				Made with
